@@ -45,15 +45,14 @@ is a host such that the following holds:*
 ```bash
 $ ssh root@IPaddress
 Password: root
-```bash
+```
 
 Such a host is called a javnik. Javnik is a non-existent croatian word which
 is derived as an opposite to the word "tajnik" (eng. secretary). Both words
 are derived from the noun "tajna" (eng. secret). 
 
-ChatGPT:
-
 ```bash
+ChatGPT:
 
 Origin and definition of the word java
 ChatGPT said:
@@ -103,4 +102,4 @@ So in Croatian:
 
     "Java" means reality or wakefulness.
     "Java" can also refer to the island of Java or the Java programming language, depending on the context.
-```bash
+```
