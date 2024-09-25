@@ -29,77 +29,88 @@ along with this document. If not, see <https://www.gnu.org/licenses/>.
 in mathematics and computer science. In particular, we study public domain
 programming interfaces. Everything in this repository is informal. There is
 no other legal entity associated with this repository except my own legal
-identity. I assume that I am legaly not allowed to perform any work for anyone
-except for myself. In other words, this can be formally classified as playing
-games, having fun or doing fundamental scientific research for free.
-If you want to support me, you are free to donate, get involved or do anything
-you want.
+identity. In other words, this can be formally classified as playing games,
+having fun or doing fundamental scientific research independently and for free.
+If you want to support me, you are free to donate to
+
+```bash
+Jakov Perica
+IBAN: DE34 1001 0010 0666 5521 24
+BIC: PBNKDEFFXXX
+
+
 
 # Javnik
 
-Suppose we have the following definition:
+**Abstract**
 
-**Definition** (Public Domain Internet Host). *The public domain internet host
+This is the development of a rigorous mathematical theory dealing with public
+relations or public information. We develop the theory in conjuction with the
+specification and implementation of the public domain internet, which we
+define informally as a set of hosts which preserve the root privilege. In other
+words, we assume that every access to the public domain internet is authorized
+and that everyone has the same root privilege. We call such a host a public domain
+internet host or just a javnik.
+
+**Preface**
+
+If you read how some famous mathematicians such as Gauss communicated with those
+of root privilege, you may think that this discussion, although possible in
+principle, would cost much. The reason is simple. It is not cheap to question
+privileges, but the computer systems in general and Unix-like operating systems
+in particular offer a safe environment in which one can do just that efficiently.
+
+The abstract mathematical structure of the root preserving systems provides a
+canonical example of a mathematical object that is more important then any other
+mathematical structure. It is more important because an interpretation of such
+a theory determines your social status, whether you should be killed, rewarded or
+anything in between. This is a simple and easy to understand theory.
+There is no new sofisticated terminology and one can consider the theory done, 
+when one reads the Decleration of independence or any other similar document. Yet
+in practice, things are much different and that theory may be just a dead ink on
+a paper or completely forgotten after some time. Further privatisation of
+computing resources and machine learning technology will just deteriorate the
+situation faster. I do not see any benefits of machine learning technology or 
+any other tehnology without the context h                                                            
+
+
+ 
+
+## Notation
+
+We use the core of conventional mathematics to construct a rigorous theory.
+If the theory conforms to the standard of a rigorous mathematical exposition,
+we are the last to say so. Thus, we only consider machine-checked-proofs as
+formal arguments and consider all the rest to be informal discussion.
+
+For simplicity, one is free to take all of the statements of a given theory as
+axioms. 
+
+## Introduction
+
+We define the public domain internet as the set of javniks, which are in turn
+defined to be the containers or sets of public information. The theory does not
+say anything about which information is or should be public and for simplicity
+we just suppose that every bit of information is java.
+
+**Definition 0.0.0** (Java) *Java is the information that is not secret and 
+not private.*
+
+The terms secret and private are primitives, i.e undefined in this theory,
+but may have it's uses in the interpretations of the theory.
+
+**Definition 0.0.1** (Javnik). *A javnik is a set of javas.*
+
+**Axiom 0.0.2** *For any object x and any javnik J, if x is an element of
+a javnik J, then x is java.* 
+
+In Croatian, the word "java" does not refer to coffee as it does in English.
+However, "kava" is the Croatian word for coffee, which sounds somewhat similar.
+In Croatian "java" means reality or wakefulness.
+
+**Definition 0** (Public Domain Internet Host). *The public domain internet host
 is a host such that the following holds:*
 
 ```bash
 $ ssh root@IPaddress
 Password: root
-```
-
-Such a host is called a javnik. Javnik is a non-existent croatian word which
-is derived as an opposite to the word "tajnik" (eng. secretary). Both words
-are derived from the noun "tajna" (eng. secret). 
-
-```bash
-ChatGPT:
-
-Origin and definition of the word java
-ChatGPT said:
-ChatGPT
-
-The word "Java" has multiple origins and meanings, depending on its context. Here are the key points:
-1. Java (Island and Language Origin)
-
-    Origin: The word "Java" originally refers to the island of Java in Indonesia, which has been known by that name for centuries. The name "Java" may have originated from the Sanskrit word "yava" (which means "barley" or "grain"), possibly because the island was famous for its agricultural richness.
-    Definition: In this context, Java refers to the most populous island in Indonesia, a historically significant and culturally rich area. It has been a central location for ancient kingdoms, colonial occupation, and modern political and economic development.
-
-2. Java (Programming Language)
-
-    Origin: The Java programming language was created by James Gosling and his team at Sun Microsystems in the early 1990s. Initially, the project was called "Oak" (after a tree outside Gosling's office), but due to trademark issues, it was renamed "Java." The team chose "Java" as a name after Java coffee, which was known for its energizing qualities. This was a nod to the dynamic and powerful nature of the new programming language.
-    Definition: In this context, Java refers to a widely-used object-oriented programming language known for its portability, security, and scalability. It is often used for building web applications, mobile apps (particularly on Android), and enterprise software.
-
-3. Java (Slang for Coffee)
-
-    Origin: The term "java" also became a popular slang for coffee in the United States, stemming from the association with the island of Java, which was a major exporter of coffee beans.
-    Definition: Here, "Java" simply means coffee, and it is often used in casual conversation to refer to a cup of coffee.
-
-In summary, Java has different meanings, but its origins trace back to the Indonesian island, from which the name has spread to both the tech world and everyday language (through coffee).
-You said:
-In croatian?
-ChatGPT said:
-ChatGPT
-
-In Croatian, the word "Java" can have different meanings depending on the context, much like in English. Here are the relevant meanings:
-1. Java (Croatian Language Context):
-
-    Definition: In Croatian, the word "java" refers to wakefulness or reality (as opposed to dreaming). It is used to describe the state of being awake and conscious. This meaning is related to the term for real life or something experienced outside of dreams.
-    Example: "Ovo nije san, ovo je java." ("This is not a dream, this is reality.")
-
-2. Java (Island and Language Context):
-
-    Definition: Similar to in English, "Java" also refers to the island of Java in Indonesia in Croatian, with the same historical and geographical significance.
-
-3. Java (Programming Language):
-
-    Definition: In the tech context, "Java" in Croatian refers to the Java programming language just as it does in English, used for software development. The term is untranslated in this context.
-
-4. Java (Coffee Context):
-
-    Definition: In Croatian, the word "java" does not refer to coffee as it does in English. However, "kava" is the Croatian word for coffee, which sounds somewhat similar.
-
-So in Croatian:
-
-    "Java" means reality or wakefulness.
-    "Java" can also refer to the island of Java or the Java programming language, depending on the context.
-```
