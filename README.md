@@ -39,7 +39,7 @@ you want.
 
 Suppose we have the following definition:
 
-**Definition** (Public Domain Internet Host). *THe public domain internet host
+**Definition** (Public Domain Internet Host). *The public domain internet host
 is a host such that the following holds:*
 
   $ ssh root@IPaddress
