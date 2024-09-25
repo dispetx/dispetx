@@ -42,8 +42,10 @@ Suppose we have the following definition:
 **Definition** (Public Domain Internet Host). *The public domain internet host
 is a host such that the following holds:*
 
-  $ ssh root@IPaddress
-  Password: root
+```bash
+$ ssh root@IPaddress
+Password: root
+```bash
 
 Such a host is called a javnik. Javnik is a non-existent croatian word which
 is derived as an opposite to the word "tajnik" (eng. secretary). Both words
@@ -101,5 +103,4 @@ So in Croatian:
 
     "Java" means reality or wakefulness.
     "Java" can also refer to the island of Java or the Java programming language, depending on the context.
-
 ```bash
